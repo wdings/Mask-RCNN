@@ -6,7 +6,7 @@ import tqdm
 from contextlib import contextmanager
 
 from tensorpack.predict import OfflinePredictor, PredictConfig
-from tensorpack.tfutils import SmartInit
+from tensorpack.tfutils.sessinit import SmartInit
 from tensorpack.utils.fs import download
 
 from sotabencheval.utils import is_server
